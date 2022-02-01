@@ -27,6 +27,7 @@
     background-image: url(../images/bg-home.jpg);
     background-size: cover;
     position: relative;
+    background-attachment: fixed;
 }
 
 .home .header {
@@ -372,8 +373,72 @@
   }
   
 
+/*************
+* LOCATION
+*************/
+
+.location{
+    padding: 100px 0;
+    background-image: url(/images/bg-location.jpg);
+    background-size: cover;
+}
+
+.location .head{
+    background-color: #191919;
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location .head .info{
+    display: flex;
+    align-items: center;
+}
+
+.location .head .info .icon{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    justify-content: center;
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.location .head .info .text span{
+    display: block;
+    font-size: 13px;
+}
+
+.location .head .info .text span:first-child{
+    color: silver;
+}
+
+.location .head .info .text span:last-child{
+    color: white;
+}
+
+.location .map{
+    width: 100%;
+}
+
+.location .map iframe{
+    width: 100%;
+}
 
 
+/*************
+* LOCATION
+*************/
 
 
-
+.footer{
+    background-color: #191919;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 40px;
+}
